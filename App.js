@@ -1,4 +1,16 @@
 
+import React, { useState } from 'react';
+import {
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+  ScrollView,
+  TouchableOpacity,
+  Keyboard,
+} from 'react-native';
+
+
 export default function App() {
   const [employees, setEmployees] = useState([]);
   const [name, setName] = useState('');
